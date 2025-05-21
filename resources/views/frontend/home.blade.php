@@ -115,7 +115,7 @@
     <section id="hero" class="hero section dark-background">
 
         <video class="hero-bg" autoplay muted loop playsinline preload="auto">
-            <source src="{{ asset('frontAssets/video/bg_video2.mp4') }}" type="video/mp4">
+            <source src="{{ asset('frontAssets/video/bg_video3.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
 
@@ -127,10 +127,11 @@
         <div class="container">
             <div class="row gy-4 d-flex justify-content-between">
                 <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
-                    <h2 data-aos="fade-up">Turning Miles into Smiles – Car Delivery Made Easy</h2>
-                    <p data-aos="fade-up" data-aos-delay="100">Swift and secure car transport solutions tailored to your
-                        needs, ensuring every vehicle reaches its destination with care and precision. Trusted by thousands
-                        for our reliability, we move with purpose, speed, and a promise to protect what drives you.</p>
+                    <h2 data-aos="fade-up">Driven by Trust. Delivered with Care.</h2>
+                    <p data-aos="fade-up" data-aos-delay="100">
+                        We specialize in secure, coast-to-coast vehicle transport — combining speed, precision, and real-time updates. Whether it’s your daily driver or a prized collectible, our team ensures a smooth, worry-free delivery from pickup to drop-off.
+                    </p>
+
 
                     {{-- <form action="#" class="form-search d-flex align-items-stretch mb-3" data-aos="fade-up"
                         data-aos-delay="200">
@@ -302,10 +303,10 @@
     @include('frontend.sections.pricing')
     @include('frontend.sections.testimonials')
     @include('frontend.sections.faqs')
-    <div data-aos="fade-up" data-aos-delay="200">
+    {{-- <div data-aos="fade-up" data-aos-delay="200">
         <iframe style="border:0; width: 100%; height: 270px;" src="{{ \App\Helpers\Helper::getGoogleAddress() }}"
             frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
+    </div> --}}
 @endsection
 
 @section('script')
