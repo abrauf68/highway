@@ -16,7 +16,270 @@ class CompanyServiceSeeder extends Seeder
     {
         DB::table('company_services')->insert([
 
-            // 1. Bike Transportation
+
+
+            // // 2. Vehicle Tracking
+            // [
+            //     'name' => 'Vehicle Tracking',
+            //     'slug' => Str::slug('Vehicle Tracking'),
+            //     'meta_title' => 'Real-Time Vehicle Tracking | Monitor Your Shipment 24/7',
+            //     'meta_description' => 'Stay in the loop with our advanced vehicle tracking system. Know exactly where your car is, anytime.',
+            //     'details' => '<h1 class="" data-start="186" data-end="250">Real-Time Vehicle Tracking Services | Stay Informed Every Mile</h1>
+            //                     <p class="" data-start="252" data-end="563">With our&nbsp;<strong data-start="261" data-end="297">advanced vehicle tracking system</strong>, you&rsquo;ll know exactly where your car is &mdash; from pickup to final delivery.<br data-start="369" data-end="372">We offer&nbsp;<strong data-start="381" data-end="402">live GPS tracking</strong>,&nbsp;<strong data-start="404" data-end="431">real-time notifications</strong>, and&nbsp;<strong data-start="437" data-end="467">dedicated customer support</strong>, so you can enjoy complete transparency and&nbsp;<strong data-start="512" data-end="529">peace of mind</strong>&nbsp;throughout the transport journey.</p>
+            //                     <p class="" data-start="565" data-end="646">Because knowing your vehicle&rsquo;s location shouldn&rsquo;t be a mystery &mdash; it&rsquo;s your right.</p>
+            //                     <hr class="" data-start="648" data-end="651">
+            //                     <h2 class="" data-start="653" data-end="696">Why Choose Our Vehicle Tracking Service?</h2>
+            //                     <h3 class="" data-start="698" data-end="737">1. Live GPS Tracking During Transit</h3>
+            //                     <p class="" data-start="738" data-end="895">Stay connected with&nbsp;<strong data-start="758" data-end="783">real-time GPS updates</strong>.<br data-start="784" data-end="787">Monitor your vehicle\'s exact location at every stage of its journey through your phone, tablet, or computer.</p>
+            //                     <h3 class="" data-start="897" data-end="938">2. ETA Notifications via SMS or Email</h3>
+            //                     <p class="" data-start="939" data-end="1107">Receive&nbsp;<strong data-start="947" data-end="974">automated notifications</strong>&nbsp;with&nbsp;<strong data-start="980" data-end="1015">estimated time of arrival (ETA)</strong>&nbsp;updates.<br data-start="1024" data-end="1027">Choose to get alerts via&nbsp;<strong data-start="1052" data-end="1075">SMS, email, or both</strong>&nbsp;&mdash; whichever works best for you.</p>
+            //                     <h3 class="" data-start="1109" data-end="1147">3. Dedicated Customer Support Team</h3>
+            //                     <p class="" data-start="1148" data-end="1301">Have questions or need updates?<br data-start="1179" data-end="1182">Our&nbsp;<strong data-start="1186" data-end="1202">support team</strong>&nbsp;is always ready to assist you with personalized tracking updates and transport status information.</p>
+            //                     <hr class="" data-start="1303" data-end="1306">
+            //                     <h2 class="" data-start="1308" data-end="1358">Key Features of Our Vehicle Tracking Technology</h2>
+            //                     <ul data-start="1360" data-end="1622">
+            //                     <li class="" data-start="1360" data-end="1395">
+            //                     <p class="" data-start="1362" data-end="1395">Real-time GPS location tracking</p>
+            //                     </li>
+            //                     <li class="" data-start="1396" data-end="1431">
+            //                     <p class="" data-start="1398" data-end="1431">Detailed trip history available</p>
+            //                     </li>
+            //                     <li class="" data-start="1432" data-end="1471">
+            //                     <p class="" data-start="1434" data-end="1471">Instant pickup and delivery updates</p>
+            //                     </li>
+            //                     <li class="" data-start="1472" data-end="1536">
+            //                     <p class="" data-start="1474" data-end="1536">Customizable alert settings (text, email, app notifications)</p>
+            //                     </li>
+            //                     <li class="" data-start="1537" data-end="1575">
+            //                     <p class="" data-start="1539" data-end="1575">Secure and private tracking system</p>
+            //                     </li>
+            //                     <li class="" data-start="1576" data-end="1622">
+            //                     <p class="" data-start="1578" data-end="1622">Direct access to support for live assistance</p>
+            //                     </li>
+            //                     </ul>
+            //                     <hr class="" data-start="1624" data-end="1627">
+            //                     <h2 class="" data-start="1629" data-end="1672">Benefits of Our Vehicle Tracking Service</h2>
+            //                     <ul data-start="1674" data-end="1923">
+            //                     <li class="" data-start="1674" data-end="1716">
+            //                     <p class="" data-start="1676" data-end="1716"><strong data-start="1676" data-end="1697">Full transparency</strong>&nbsp;during transport</p>
+            //                     </li>
+            //                     <li class="" data-start="1717" data-end="1755">
+            //                     <p class="" data-start="1719" data-end="1755"><strong data-start="1719" data-end="1737">Reduced stress</strong>&nbsp;and uncertainty</p>
+            //                     </li>
+            //                     <li class="" data-start="1756" data-end="1804">
+            //                     <p class="" data-start="1758" data-end="1804"><strong data-start="1758" data-end="1782">Timely communication</strong>&nbsp;for better planning</p>
+            //                     </li>
+            //                     <li class="" data-start="1805" data-end="1858">
+            //                     <p class="" data-start="1807" data-end="1858"><strong data-start="1807" data-end="1841">Enhanced trust and reliability</strong>&nbsp;in our service</p>
+            //                     </li>
+            //                     <li class="" data-start="1859" data-end="1923">
+            //                     <p class="" data-start="1861" data-end="1923"><strong data-start="1861" data-end="1878">Peace of mind</strong>&nbsp;knowing your vehicle is safe and on schedule</p>
+            //                     </li>
+            //                     </ul>
+            //                     <hr class="" data-start="1925" data-end="1928">
+            //                     <h2 class="" data-start="1930" data-end="1963">How Our Vehicle Tracking Works</h2>
+            //                     <ol data-start="1965" data-end="2413">
+            //                     <li class="" data-start="1965" data-end="2086">
+            //                     <p class="" data-start="1968" data-end="2086"><strong data-start="1968" data-end="2013">Book Your Transport with Tracking Enabled</strong><br data-start="2013" data-end="2016">Vehicle tracking is included in your service at no additional cost.</p>
+            //                     </li>
+            //                     <li class="" data-start="2088" data-end="2202">
+            //                     <p class="" data-start="2091" data-end="2202"><strong data-start="2091" data-end="2128">Receive Your Tracking Information</strong><br data-start="2128" data-end="2131">Get a tracking link and notification setup options via SMS or email.</p>
+            //                     </li>
+            //                     <li class="" data-start="2204" data-end="2322">
+            //                     <p class="" data-start="2207" data-end="2322"><strong data-start="2207" data-end="2240">Monitor Progress in Real Time</strong><br data-start="2240" data-end="2243">Stay informed with live updates and ETAs until your car is safely delivered.</p>
+            //                     </li>
+            //                     <li class="" data-start="2324" data-end="2413">
+            //                     <p class="" data-start="2327" data-end="2413"><strong data-start="2327" data-end="2350">Get Support Anytime</strong><br data-start="2350" data-end="2353">Need assistance? Our team is just a call or message away.</p>
+            //                     </li>
+            //                     </ol>
+            //                     <hr class="" data-start="2415" data-end="2418">
+            //                     <h2 class="" data-start="2420" data-end="2456">Always Know Where Your Vehicle Is</h2>
+            //                     <p class="" data-start="2458" data-end="2664">Your vehicle is valuable &mdash; and so is your peace of mind.<br data-start="2514" data-end="2517">With our&nbsp;<strong data-start="2526" data-end="2564">real-time vehicle tracking service</strong>, you&rsquo;ll always be in control, always informed, and always confident that your car is in good hands.</p>
+            //                     <p class="" data-start="2666" data-end="2771"><strong data-start="2666" data-end="2686">Contact us today</strong> to schedule your transport and experience stress-free shipping with full visibility!</p>',
+            //     'meta_image' => 'uploads/company/services/service2.jpg',
+            //     'main_image' => 'uploads/company/services/service-2.jpg',
+            //     'created_at' => now(),
+            //     'updated_at' => now(),
+            // ],
+            // // 3. Real Time GPS
+            // [
+            //     'name' => 'Real Time GPS',
+            //     'slug' => Str::slug('Real Time GPS'),
+            //     'meta_title' => 'Real Time GPS Tracking | Accurate Location Updates Anytime',
+            //     'meta_description' => 'Track your vehicle with precision using our real-time GPS tracking system. Stay updated with location, route, and ETA notifications.',
+            //     'details' => '<h1 class="">Real Time GPS Vehicle Tracking | Precision at Your Fingertips</h1>
+            //                     <p class="">Our&nbsp;<strong>Real Time GPS tracking</strong>&nbsp;lets you monitor your vehicle\'s exact location, speed, and movement history anytime, anywhere.<br>Whether you\'re shipping a car across states or managing a fleet, our GPS solution gives you unparalleled visibility and peace of mind.</p>
+            //                     <hr class="">
+            //                     <h2 class="">Top Features of Our Real Time GPS Solution</h2>
+            //                     <h3 class="">1. Pinpoint Location Accuracy</h3>
+            //                     <p class="">Our GPS system provides&nbsp;<strong>real-time updates</strong>&nbsp;with minimal delay. Know the exact position of your vehicle at every moment.</p>
+            //                     <h3 class="">2. Route History & Playback</h3>
+            //                     <p class="">Review detailed route history to understand past trips, driver behavior, and delivery performance.</p>
+            //                     <h3 class="">3. Speed & Movement Alerts</h3>
+            //                     <p class="">Get instant alerts for speed violations, sudden stops, or unauthorized movements &mdash; all via SMS or email.</p>
+            //                     <hr class="">
+            //                     <h2 class="">Benefits of Real Time GPS Tracking</h2>
+            //                     <ul>
+            //                         <li><strong>Improve delivery timelines</strong> with proactive route monitoring</li>
+            //                         <li><strong>Reduce risks</strong> through theft prevention and vehicle misuse detection</li>
+            //                         <li><strong>Better planning</strong> thanks to live ETA and trip data</li>
+            //                         <li><strong>24/7 location access</strong> from any internet-connected device</li>
+            //                         <li><strong>Increased customer satisfaction</strong> with transparent updates</li>
+            //                     </ul>
+            //                     <hr class="">
+            //                     <h2 class="">How It Works</h2>
+            //                     <ol>
+            //                         <li><strong>Activate GPS Tracking</strong><br>Our system is enabled once your transport is confirmed.</li>
+            //                         <li><strong>Receive Your Tracking Link</strong><br>We send you a secure link with access to your live GPS dashboard.</li>
+            //                         <li><strong>Monitor & Receive Alerts</strong><br>Track every stop, turn, and update on your vehicle’s journey in real time.</li>
+            //                     </ol>
+            //                     <hr class="">
+            //                     <h2 class="">Take Control of Every Mile</h2>
+            //                     <p class="">Don’t leave your vehicle’s journey to guesswork.<br><strong>With our real-time GPS system</strong>, you\'re always in the know — informed, empowered, and confident in every shipment.</p>
+            //                     <p class=""><strong>Contact us now</strong> to experience the future of vehicle tracking technology!</p>',
+            //     'meta_image' => 'uploads/company/services/gps1.jpg',
+            //     'main_image' => 'uploads/company/services/gps1.jpg',
+            //     'created_at' => now(),
+            //     'updated_at' => now(),
+            // ],
+
+            // 1. Car Transportation
+            [
+                'name' => 'Car Transportation',
+                'slug' => Str::slug('Car Transportation'),
+                'meta_title' => 'Car Transportation Services | Fast, Safe, and Reliable Auto Shipping',
+                'meta_description' => 'Professional car transportation services tailored to your needs. Reliable, fast, and fully insured door-to-door vehicle shipping.',
+                'details' => '
+                <h2>Car Transportation Services</h2>
+                <p>We provide expert <strong>car transportation services</strong> for individuals and businesses nationwide. Whether you\'re relocating or selling a vehicle, our network ensures safe, efficient, and affordable transport from pickup to delivery.</p>
+
+                <h3>Why Choose Us?</h3>
+                <ul>
+                    <li>Door-to-door pickup and delivery</li>
+                    <li>Experienced drivers and licensed carriers</li>
+                    <li>Full vehicle insurance coverage</li>
+                    <li>Transparent pricing with no hidden fees</li>
+                </ul>
+
+                <h3>How It Works</h3>
+                <ol>
+                    <li>Request a free quote</li>
+                    <li>Schedule your transport</li>
+                    <li>Your car is picked up and shipped</li>
+                    <li>Delivered at your doorstep or preferred location</li>
+                </ol>
+
+                <p>Get your car where it needs to be, without the stress.</p>
+                ',
+                'meta_image' => 'uploads/company/services/service1.jpg',
+                'main_image' => 'uploads/company/services/1745655048_main_image.jpg',
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+
+            // 2. Vehicle Storage
+            [
+                'name' => 'Vehicle Storage',
+                'slug' => Str::slug('Vehicle Storage'),
+                'meta_title' => 'Secure Vehicle Storage Solutions | Short & Long-Term',
+                'meta_description' => 'Keep your vehicle safe with our climate-controlled, fully secure vehicle storage facilities.',
+                'details' => '
+                <h2>Vehicle Storage</h2>
+                <p>Need a place to store your car while you relocate or travel? Our secure <strong>vehicle storage services</strong> are designed for short-term and long-term protection.</p>
+
+                <h3>Storage Features</h3>
+                <ul>
+                    <li>24/7 surveillance & gated access</li>
+                    <li>Climate-controlled indoor units</li>
+                    <li>Outdoor storage for larger vehicles</li>
+                    <li>Affordable monthly plans</li>
+                </ul>
+
+                <p>Trust us to safeguard your investment, whether it’s for a few days or several months.</p>
+                ',
+                'meta_image' => 'uploads/company/services/1745655342_meta_image.jpg',
+                'main_image' => 'uploads/company/services/1745655342_main_image.jpg',
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+
+            // 3. Logistics
+            [
+                'name' => 'Logistics',
+                'slug' => Str::slug('Logistics'),
+                'meta_title' => 'Automotive Logistics Services | End-to-End Vehicle Transport Solutions',
+                'meta_description' => 'Streamline your vehicle shipping with our full-scale logistics solutions tailored for auto dealerships, auctions, and individuals.',
+                'details' => '
+                <h2>Logistics</h2>
+                <p>Our <strong>logistics services</strong> provide complete end-to-end vehicle transportation and fleet management solutions. From pickup scheduling to final delivery and tracking, we take care of it all.</p>
+
+                <h3>What We Handle</h3>
+                <ul>
+                    <li>Nationwide & international shipping coordination</li>
+                    <li>Fleet transport for dealerships</li>
+                    <li>Specialized logistics for auctions & events</li>
+                    <li>Real-time tracking & updates</li>
+                </ul>
+
+                <p>Partner with us to simplify your logistics and focus on what matters most — your business.</p>
+                ',
+                'meta_image' => 'uploads/company/services/service3.jpg',
+                'main_image' => 'uploads/company/services/service-3.jpg',
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+
+            // 4. Express Delivery
+            [
+                'name' => 'Express Delivery',
+                'slug' => Str::slug('Express Delivery'),
+                'meta_title' => 'Express Car Delivery | Fast & Time-Sensitive Auto Transport',
+                'meta_description' => 'Need your vehicle delivered ASAP? Choose our express auto delivery service for guaranteed fast shipping.',
+                'details' => '
+                <h2>Express Delivery</h2>
+                <p>When time is critical, our <strong>express car delivery service</strong> ensures your vehicle is prioritized for the fastest possible transport. Ideal for emergency moves, short deadlines, and premium service needs.</p>
+
+                <h3>Service Highlights</h3>
+                <ul>
+                    <li>Expedited scheduling and pickup</li>
+                    <li>Guaranteed delivery windows</li>
+                    <li>Priority service with dedicated carriers</li>
+                </ul>
+
+                <p>We deliver when others can’t. Ask about availability and rush pricing.</p>
+                ',
+                'meta_image' => 'uploads/company/services/gps1.jpg',
+                'main_image' => 'uploads/company/services/service-4.jpg',
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+
+            // 5. Enclosed Transport
+            [
+                'name' => 'Enclosed Transport',
+                'slug' => Str::slug('Enclosed Transport'),
+                'meta_title' => 'Enclosed Vehicle Transport | Ultimate Protection for Luxury Cars',
+                'meta_description' => 'Protect your high-value vehicle from the elements with our fully enclosed auto transport trailers.',
+                'details' => '
+                <h2>Enclosed Transport</h2>
+                <p>Our <strong>enclosed vehicle transport</strong> is the ideal choice for luxury, exotic, and collectible vehicles. Your car is transported in a covered trailer, protected from weather, dust, and road debris.</p>
+
+                <h3>Recommended For:</h3>
+                <ul>
+                    <li>Classic cars</li>
+                    <li>Luxury & supercars</li>
+                    <li>Show cars</li>
+                </ul>
+
+                <p>White-glove service, guaranteed peace of mind.</p>
+                ',
+                'meta_image' => 'uploads/company/services/1745655592_meta_image.jpg',
+                'main_image' => 'uploads/company/services/1745655592_main_image.jpg',
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+
+            // 6. Bike Transportation
             [
                 'name' => 'Bike Transportation',
                 'slug' => Str::slug('Bike Transportation'),
@@ -91,267 +354,6 @@ class CompanyServiceSeeder extends Seeder
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
-
-            // 2. Vehicle Tracking
-            [
-                'name' => 'Vehicle Tracking',
-                'slug' => Str::slug('Vehicle Tracking'),
-                'meta_title' => 'Real-Time Vehicle Tracking | Monitor Your Shipment 24/7',
-                'meta_description' => 'Stay in the loop with our advanced vehicle tracking system. Know exactly where your car is, anytime.',
-                'details' => '<h1 class="" data-start="186" data-end="250">Real-Time Vehicle Tracking Services | Stay Informed Every Mile</h1>
-                                <p class="" data-start="252" data-end="563">With our&nbsp;<strong data-start="261" data-end="297">advanced vehicle tracking system</strong>, you&rsquo;ll know exactly where your car is &mdash; from pickup to final delivery.<br data-start="369" data-end="372">We offer&nbsp;<strong data-start="381" data-end="402">live GPS tracking</strong>,&nbsp;<strong data-start="404" data-end="431">real-time notifications</strong>, and&nbsp;<strong data-start="437" data-end="467">dedicated customer support</strong>, so you can enjoy complete transparency and&nbsp;<strong data-start="512" data-end="529">peace of mind</strong>&nbsp;throughout the transport journey.</p>
-                                <p class="" data-start="565" data-end="646">Because knowing your vehicle&rsquo;s location shouldn&rsquo;t be a mystery &mdash; it&rsquo;s your right.</p>
-                                <hr class="" data-start="648" data-end="651">
-                                <h2 class="" data-start="653" data-end="696">Why Choose Our Vehicle Tracking Service?</h2>
-                                <h3 class="" data-start="698" data-end="737">1. Live GPS Tracking During Transit</h3>
-                                <p class="" data-start="738" data-end="895">Stay connected with&nbsp;<strong data-start="758" data-end="783">real-time GPS updates</strong>.<br data-start="784" data-end="787">Monitor your vehicle\'s exact location at every stage of its journey through your phone, tablet, or computer.</p>
-                                <h3 class="" data-start="897" data-end="938">2. ETA Notifications via SMS or Email</h3>
-                                <p class="" data-start="939" data-end="1107">Receive&nbsp;<strong data-start="947" data-end="974">automated notifications</strong>&nbsp;with&nbsp;<strong data-start="980" data-end="1015">estimated time of arrival (ETA)</strong>&nbsp;updates.<br data-start="1024" data-end="1027">Choose to get alerts via&nbsp;<strong data-start="1052" data-end="1075">SMS, email, or both</strong>&nbsp;&mdash; whichever works best for you.</p>
-                                <h3 class="" data-start="1109" data-end="1147">3. Dedicated Customer Support Team</h3>
-                                <p class="" data-start="1148" data-end="1301">Have questions or need updates?<br data-start="1179" data-end="1182">Our&nbsp;<strong data-start="1186" data-end="1202">support team</strong>&nbsp;is always ready to assist you with personalized tracking updates and transport status information.</p>
-                                <hr class="" data-start="1303" data-end="1306">
-                                <h2 class="" data-start="1308" data-end="1358">Key Features of Our Vehicle Tracking Technology</h2>
-                                <ul data-start="1360" data-end="1622">
-                                <li class="" data-start="1360" data-end="1395">
-                                <p class="" data-start="1362" data-end="1395">Real-time GPS location tracking</p>
-                                </li>
-                                <li class="" data-start="1396" data-end="1431">
-                                <p class="" data-start="1398" data-end="1431">Detailed trip history available</p>
-                                </li>
-                                <li class="" data-start="1432" data-end="1471">
-                                <p class="" data-start="1434" data-end="1471">Instant pickup and delivery updates</p>
-                                </li>
-                                <li class="" data-start="1472" data-end="1536">
-                                <p class="" data-start="1474" data-end="1536">Customizable alert settings (text, email, app notifications)</p>
-                                </li>
-                                <li class="" data-start="1537" data-end="1575">
-                                <p class="" data-start="1539" data-end="1575">Secure and private tracking system</p>
-                                </li>
-                                <li class="" data-start="1576" data-end="1622">
-                                <p class="" data-start="1578" data-end="1622">Direct access to support for live assistance</p>
-                                </li>
-                                </ul>
-                                <hr class="" data-start="1624" data-end="1627">
-                                <h2 class="" data-start="1629" data-end="1672">Benefits of Our Vehicle Tracking Service</h2>
-                                <ul data-start="1674" data-end="1923">
-                                <li class="" data-start="1674" data-end="1716">
-                                <p class="" data-start="1676" data-end="1716"><strong data-start="1676" data-end="1697">Full transparency</strong>&nbsp;during transport</p>
-                                </li>
-                                <li class="" data-start="1717" data-end="1755">
-                                <p class="" data-start="1719" data-end="1755"><strong data-start="1719" data-end="1737">Reduced stress</strong>&nbsp;and uncertainty</p>
-                                </li>
-                                <li class="" data-start="1756" data-end="1804">
-                                <p class="" data-start="1758" data-end="1804"><strong data-start="1758" data-end="1782">Timely communication</strong>&nbsp;for better planning</p>
-                                </li>
-                                <li class="" data-start="1805" data-end="1858">
-                                <p class="" data-start="1807" data-end="1858"><strong data-start="1807" data-end="1841">Enhanced trust and reliability</strong>&nbsp;in our service</p>
-                                </li>
-                                <li class="" data-start="1859" data-end="1923">
-                                <p class="" data-start="1861" data-end="1923"><strong data-start="1861" data-end="1878">Peace of mind</strong>&nbsp;knowing your vehicle is safe and on schedule</p>
-                                </li>
-                                </ul>
-                                <hr class="" data-start="1925" data-end="1928">
-                                <h2 class="" data-start="1930" data-end="1963">How Our Vehicle Tracking Works</h2>
-                                <ol data-start="1965" data-end="2413">
-                                <li class="" data-start="1965" data-end="2086">
-                                <p class="" data-start="1968" data-end="2086"><strong data-start="1968" data-end="2013">Book Your Transport with Tracking Enabled</strong><br data-start="2013" data-end="2016">Vehicle tracking is included in your service at no additional cost.</p>
-                                </li>
-                                <li class="" data-start="2088" data-end="2202">
-                                <p class="" data-start="2091" data-end="2202"><strong data-start="2091" data-end="2128">Receive Your Tracking Information</strong><br data-start="2128" data-end="2131">Get a tracking link and notification setup options via SMS or email.</p>
-                                </li>
-                                <li class="" data-start="2204" data-end="2322">
-                                <p class="" data-start="2207" data-end="2322"><strong data-start="2207" data-end="2240">Monitor Progress in Real Time</strong><br data-start="2240" data-end="2243">Stay informed with live updates and ETAs until your car is safely delivered.</p>
-                                </li>
-                                <li class="" data-start="2324" data-end="2413">
-                                <p class="" data-start="2327" data-end="2413"><strong data-start="2327" data-end="2350">Get Support Anytime</strong><br data-start="2350" data-end="2353">Need assistance? Our team is just a call or message away.</p>
-                                </li>
-                                </ol>
-                                <hr class="" data-start="2415" data-end="2418">
-                                <h2 class="" data-start="2420" data-end="2456">Always Know Where Your Vehicle Is</h2>
-                                <p class="" data-start="2458" data-end="2664">Your vehicle is valuable &mdash; and so is your peace of mind.<br data-start="2514" data-end="2517">With our&nbsp;<strong data-start="2526" data-end="2564">real-time vehicle tracking service</strong>, you&rsquo;ll always be in control, always informed, and always confident that your car is in good hands.</p>
-                                <p class="" data-start="2666" data-end="2771"><strong data-start="2666" data-end="2686">Contact us today</strong> to schedule your transport and experience stress-free shipping with full visibility!</p>',
-                'meta_image' => 'uploads/company/services/service2.jpg',
-                'main_image' => 'uploads/company/services/service-2.jpg',
-                'created_at' => now(),
-                'updated_at' => now(),
-            ],
-            // 3. Real Time GPS
-            [
-                'name' => 'Real Time GPS',
-                'slug' => Str::slug('Real Time GPS'),
-                'meta_title' => 'Real Time GPS Tracking | Accurate Location Updates Anytime',
-                'meta_description' => 'Track your vehicle with precision using our real-time GPS tracking system. Stay updated with location, route, and ETA notifications.',
-                'details' => '<h1 class="">Real Time GPS Vehicle Tracking | Precision at Your Fingertips</h1>
-                                <p class="">Our&nbsp;<strong>Real Time GPS tracking</strong>&nbsp;lets you monitor your vehicle\'s exact location, speed, and movement history anytime, anywhere.<br>Whether you\'re shipping a car across states or managing a fleet, our GPS solution gives you unparalleled visibility and peace of mind.</p>
-                                <hr class="">
-                                <h2 class="">Top Features of Our Real Time GPS Solution</h2>
-                                <h3 class="">1. Pinpoint Location Accuracy</h3>
-                                <p class="">Our GPS system provides&nbsp;<strong>real-time updates</strong>&nbsp;with minimal delay. Know the exact position of your vehicle at every moment.</p>
-                                <h3 class="">2. Route History & Playback</h3>
-                                <p class="">Review detailed route history to understand past trips, driver behavior, and delivery performance.</p>
-                                <h3 class="">3. Speed & Movement Alerts</h3>
-                                <p class="">Get instant alerts for speed violations, sudden stops, or unauthorized movements &mdash; all via SMS or email.</p>
-                                <hr class="">
-                                <h2 class="">Benefits of Real Time GPS Tracking</h2>
-                                <ul>
-                                    <li><strong>Improve delivery timelines</strong> with proactive route monitoring</li>
-                                    <li><strong>Reduce risks</strong> through theft prevention and vehicle misuse detection</li>
-                                    <li><strong>Better planning</strong> thanks to live ETA and trip data</li>
-                                    <li><strong>24/7 location access</strong> from any internet-connected device</li>
-                                    <li><strong>Increased customer satisfaction</strong> with transparent updates</li>
-                                </ul>
-                                <hr class="">
-                                <h2 class="">How It Works</h2>
-                                <ol>
-                                    <li><strong>Activate GPS Tracking</strong><br>Our system is enabled once your transport is confirmed.</li>
-                                    <li><strong>Receive Your Tracking Link</strong><br>We send you a secure link with access to your live GPS dashboard.</li>
-                                    <li><strong>Monitor & Receive Alerts</strong><br>Track every stop, turn, and update on your vehicle’s journey in real time.</li>
-                                </ol>
-                                <hr class="">
-                                <h2 class="">Take Control of Every Mile</h2>
-                                <p class="">Don’t leave your vehicle’s journey to guesswork.<br><strong>With our real-time GPS system</strong>, you\'re always in the know — informed, empowered, and confident in every shipment.</p>
-                                <p class=""><strong>Contact us now</strong> to experience the future of vehicle tracking technology!</p>',
-                'meta_image' => 'uploads/company/services/gps1.jpg',
-                'main_image' => 'uploads/company/services/gps1.jpg',
-                'created_at' => now(),
-                'updated_at' => now(),
-            ],
-
-            // // 1. Car Transportation
-            // [
-            //     'name' => 'Car Transportation',
-            //     'slug' => Str::slug('Car Transportation'),
-            //     'meta_title' => 'Car Transportation Services | Fast, Safe, and Reliable Auto Shipping',
-            //     'meta_description' => 'Professional car transportation services tailored to your needs. Reliable, fast, and fully insured door-to-door vehicle shipping.',
-            //     'details' => '
-            //     <h2>Car Transportation Services</h2>
-            //     <p>We provide expert <strong>car transportation services</strong> for individuals and businesses nationwide. Whether you\'re relocating or selling a vehicle, our network ensures safe, efficient, and affordable transport from pickup to delivery.</p>
-
-            //     <h3>Why Choose Us?</h3>
-            //     <ul>
-            //         <li>Door-to-door pickup and delivery</li>
-            //         <li>Experienced drivers and licensed carriers</li>
-            //         <li>Full vehicle insurance coverage</li>
-            //         <li>Transparent pricing with no hidden fees</li>
-            //     </ul>
-
-            //     <h3>How It Works</h3>
-            //     <ol>
-            //         <li>Request a free quote</li>
-            //         <li>Schedule your transport</li>
-            //         <li>Your car is picked up and shipped</li>
-            //         <li>Delivered at your doorstep or preferred location</li>
-            //     </ol>
-
-            //     <p>Get your car where it needs to be, without the stress.</p>
-            //     ',
-            //     'meta_image' => 'uploads/company/services/service1.jpg',
-            //     'main_image' => 'uploads/company/services/service-1.jpg',
-            //     'created_at' => now(),
-            //     'updated_at' => now(),
-            // ],
-
-            // // 2. Vehicle Storage
-            // [
-            //     'name' => 'Vehicle Storage',
-            //     'slug' => Str::slug('Vehicle Storage'),
-            //     'meta_title' => 'Secure Vehicle Storage Solutions | Short & Long-Term',
-            //     'meta_description' => 'Keep your vehicle safe with our climate-controlled, fully secure vehicle storage facilities.',
-            //     'details' => '
-            //     <h2>Vehicle Storage</h2>
-            //     <p>Need a place to store your car while you relocate or travel? Our secure <strong>vehicle storage services</strong> are designed for short-term and long-term protection.</p>
-
-            //     <h3>Storage Features</h3>
-            //     <ul>
-            //         <li>24/7 surveillance & gated access</li>
-            //         <li>Climate-controlled indoor units</li>
-            //         <li>Outdoor storage for larger vehicles</li>
-            //         <li>Affordable monthly plans</li>
-            //     </ul>
-
-            //     <p>Trust us to safeguard your investment, whether it’s for a few days or several months.</p>
-            //     ',
-            //     'meta_image' => 'uploads/company/services/service2.jpg',
-            //     'main_image' => 'uploads/company/services/service-2.jpg',
-            //     'created_at' => now(),
-            //     'updated_at' => now(),
-            // ],
-
-            // // 3. Logistics
-            // [
-            //     'name' => 'Logistics',
-            //     'slug' => Str::slug('Logistics'),
-            //     'meta_title' => 'Automotive Logistics Services | End-to-End Vehicle Transport Solutions',
-            //     'meta_description' => 'Streamline your vehicle shipping with our full-scale logistics solutions tailored for auto dealerships, auctions, and individuals.',
-            //     'details' => '
-            //     <h2>Logistics</h2>
-            //     <p>Our <strong>logistics services</strong> provide complete end-to-end vehicle transportation and fleet management solutions. From pickup scheduling to final delivery and tracking, we take care of it all.</p>
-
-            //     <h3>What We Handle</h3>
-            //     <ul>
-            //         <li>Nationwide & international shipping coordination</li>
-            //         <li>Fleet transport for dealerships</li>
-            //         <li>Specialized logistics for auctions & events</li>
-            //         <li>Real-time tracking & updates</li>
-            //     </ul>
-
-            //     <p>Partner with us to simplify your logistics and focus on what matters most — your business.</p>
-            //     ',
-            //     'meta_image' => 'uploads/company/services/service3.jpg',
-            //     'main_image' => 'uploads/company/services/service-3.jpg',
-            //     'created_at' => now(),
-            //     'updated_at' => now(),
-            // ],
-
-            // // 4. Express Delivery
-            // [
-            //     'name' => 'Express Delivery',
-            //     'slug' => Str::slug('Express Delivery'),
-            //     'meta_title' => 'Express Car Delivery | Fast & Time-Sensitive Auto Transport',
-            //     'meta_description' => 'Need your vehicle delivered ASAP? Choose our express auto delivery service for guaranteed fast shipping.',
-            //     'details' => '
-            //     <h2>Express Delivery</h2>
-            //     <p>When time is critical, our <strong>express car delivery service</strong> ensures your vehicle is prioritized for the fastest possible transport. Ideal for emergency moves, short deadlines, and premium service needs.</p>
-
-            //     <h3>Service Highlights</h3>
-            //     <ul>
-            //         <li>Expedited scheduling and pickup</li>
-            //         <li>Guaranteed delivery windows</li>
-            //         <li>Priority service with dedicated carriers</li>
-            //     </ul>
-
-            //     <p>We deliver when others can’t. Ask about availability and rush pricing.</p>
-            //     ',
-            //     'meta_image' => 'uploads/company/services/service4.jpg',
-            //     'main_image' => 'uploads/company/services/service-4.jpg',
-            //     'created_at' => now(),
-            //     'updated_at' => now(),
-            // ],
-
-            // // 5. Enclosed Transport
-            // [
-            //     'name' => 'Enclosed Transport',
-            //     'slug' => Str::slug('Enclosed Transport'),
-            //     'meta_title' => 'Enclosed Vehicle Transport | Ultimate Protection for Luxury Cars',
-            //     'meta_description' => 'Protect your high-value vehicle from the elements with our fully enclosed auto transport trailers.',
-            //     'details' => '
-            //     <h2>Enclosed Transport</h2>
-            //     <p>Our <strong>enclosed vehicle transport</strong> is the ideal choice for luxury, exotic, and collectible vehicles. Your car is transported in a covered trailer, protected from weather, dust, and road debris.</p>
-
-            //     <h3>Recommended For:</h3>
-            //     <ul>
-            //         <li>Classic cars</li>
-            //         <li>Luxury & supercars</li>
-            //         <li>Show cars</li>
-            //     </ul>
-
-            //     <p>White-glove service, guaranteed peace of mind.</p>
-            //     ',
-            //     'meta_image' => 'uploads/company/services/service5.jpg',
-            //     'main_image' => 'uploads/company/services/service-5.jpg',
-            //     'created_at' => now(),
-            //     'updated_at' => now(),
-            // ],
 
             // // 6. Vehicle Tracking
             // [

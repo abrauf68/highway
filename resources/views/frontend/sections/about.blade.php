@@ -19,31 +19,31 @@
                     car across town or across the country.
                 </p>
                 <ul>
-    <li style="align-items: center !important;">
-        <i class="fas fa-project-diagram"></i> 
-        <div>
-            <h5>Nationwide Coverage</h5>
-            <p>We offer car transport services across the country, ensuring your vehicle reaches its
-                destination safely and on time.</p>
-        </div>
-    </li>
-    <li style="align-items: center !important;">
-        <i class="fas fa-expand-arrows-alt"></i> 
-        <div>
-            <h5>Enclosed and Open Transport</h5>
-            <p>Choose between open or enclosed transport, depending on your needs and the level of
-                protection your vehicle requires.</p>
-        </div>
-    </li>
-    <li style="align-items: center !important;">
-        <i class="fas fa-broadcast-tower"></i> 
-        <div>
-            <h5>Real-Time Tracking</h5>
-            <p>Stay informed with real-time vehicle tracking, ensuring you know exactly where your car
-                is during transport.</p>
-        </div>
-    </li>
-</ul>
+                    <li style="align-items: center !important;">
+                        <i class="fas fa-project-diagram"></i>
+                        <div>
+                            <h5>Nationwide Coverage</h5>
+                            <p>We offer car transport services across the country, ensuring your vehicle reaches its
+                                destination safely and on time.</p>
+                        </div>
+                    </li>
+                    <li style="align-items: center !important;">
+                        <i class="fas fa-expand-arrows-alt"></i>
+                        <div>
+                            <h5>Enclosed and Open Transport</h5>
+                            <p>Choose between open or enclosed transport, depending on your needs and the level of
+                                protection your vehicle requires.</p>
+                        </div>
+                    </li>
+                    <li style="align-items: center !important;">
+                        <i class="fas fa-shield-alt"></i>
+                        <div>
+                            <h5>Fully Insured Transport</h5>
+                            <p>Your vehicle is covered every mile of the journey with comprehensive insurance for
+                                complete peace of mind.</p>
+                        </div>
+                    </li>
+                </ul>
 
             </div>
 

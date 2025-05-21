@@ -247,7 +247,7 @@
                             </div>
 
                             <div class="col-12 text-center">
-                                <button type="submit" class="btn btn-primary">Submit Quote</button>
+                                <button type="submit" class="btn btn-primary">CTA, Get a Quote</button>
                             </div>
 
                         </div>
