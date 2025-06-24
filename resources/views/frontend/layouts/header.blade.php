@@ -4,7 +4,7 @@
         <a href="{{ route('frontend.home') }}" class="logo d-flex align-items-center me-auto">
             <!-- Uncomment the line below if you also wish to use an image logo -->
             <img style="height: 80px !important;" src="{{ asset(\App\Helpers\Helper::getLogoLight()) }}" alt="">
-            <h1 class="sitename">{{ \App\Helpers\Helper::getCompanyName() }}</h1>
+            {{-- <h1 class="sitename">{{ \App\Helpers\Helper::getCompanyName() }}</h1> --}}
         </a>
 
         <nav id="navmenu" class="navmenu">
