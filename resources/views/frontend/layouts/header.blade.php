@@ -38,8 +38,8 @@
                     </ul>
                 </li>
 
-                <li><a href="{{ route('frontend.pricing') }}"
-                        class="{{ request()->routeIs('frontend.pricing') ? 'active' : '' }}">Pricing</a></li>
+                {{-- <li><a href="{{ route('frontend.pricing') }}"
+                        class="{{ request()->routeIs('frontend.pricing') ? 'active' : '' }}">Pricing</a></li> --}}
                 {{-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i
                             class="fas fa-chevron-down toggle-dropdown"></i></a>
                     <ul>

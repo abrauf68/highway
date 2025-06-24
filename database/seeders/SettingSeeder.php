@@ -18,7 +18,7 @@ class SettingSeeder extends Seeder
     public function run(): void
     {
         CompanySetting::create([
-            'company_name' => 'C-T HWY',
+            'company_name' => 'Road Rex',
             'facebook' => 'https://facebook.com/',
             'instagram' => 'https://instagram.com/',
             'twitter' => 'https://twitter.com/',
