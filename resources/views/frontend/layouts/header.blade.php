@@ -1,3 +1,41 @@
+<div class="topbar">
+    <div class="container-xl d-flex justify-content-between align-items-center flex-wrap">
+        <div class="topbar-left d-flex align-items-center gap-3">
+            <a href="{{ route('frontend.about') }}" class="topbar-link">About</a>
+            <a href="{{ route('frontend.contact') }}" class="topbar-link">Contact</a>
+            {{-- <a href="{{ route('frontend.pricing') }}" class="topbar-link">Pricing</a> --}}
+        </div>
+        <div class="topbar-center">
+            <div class="ticker-wrapper">
+                <div class="ticker-content">
+                    <p>
+                        {{ \App\Helpers\Helper::getCompanyName() }} has
+                        <span style="color: #029046;">safely shipped 1,000,000+ vehicles</span>
+                        to all 50 states. Read our
+                        <span style="color: #00a1ef;">100,000+ online reviews </span>
+                        to hear more about our
+                        <span style="color: #00a1ef;">5-star customer service</span>.
+                    </p>
+                    <p>
+                        {{ \App\Helpers\Helper::getCompanyName() }} has
+                        <span style="color: #029046;">safely shipped 1,000,000+ vehicles</span>
+                        to all 50 states. Read our
+                        <span style="color: #00a1ef;">100,000+ online reviews </span>
+                        to hear more about our
+                        <span style="color: #00a1ef;">5-star customer service</span>.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="topbar-right">
+            <a href="tel:{{ \App\Helpers\Helper::getCompanyPhone() }}" class="topbar-phone">
+                <i class="fas fa-phone-alt me-1"></i> {{ \App\Helpers\Helper::getCompanyPhone() }}
+            </a>
+        </div>
+    </div>
+</div>
+
 <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
 

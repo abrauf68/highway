@@ -3,6 +3,8 @@
 namespace App\Http\Controllers\Frontend;
 
 use App\Http\Controllers\Controller;
+use App\Models\CarBrand;
+use App\Models\CarModel;
 use App\Models\CompanyService;
 use App\Models\ServiceFeature;
 use App\Models\Team;
@@ -14,8 +16,9 @@ class HomeController extends Controller
     public function home()
     {
         try {
+            $carBrands = CarBrand::where('is_active', 'active')->get();
             $services = CompanyService::where('is_active', 'active')->get();
-            return view('frontend.home', compact('services'));
+            return view('frontend.home', compact('services','carBrands'));
         } catch (\Throwable $th) {
             Log::error('Home View Failed', ['error' => $th->getMessage()]);
             return redirect()->back()->with('error', "Something went wrong! Please try again later");
@@ -53,7 +56,7 @@ class HomeController extends Controller
             throw $th;
         }
     }
-    
+
      public function features($slug = null)
     {
         try {
@@ -110,6 +113,25 @@ class HomeController extends Controller
         } catch (\Throwable $th) {
             Log::error('Service Details View Failed', ['error' => $th->getMessage()]);
             return redirect()->back()->with('error', "Something went wrong! Please try again later");
+            throw $th;
+        }
+    }
+
+    public function getModelsbyBrand($id)
+    {
+        try {
+            $models = CarModel::where('car_brand_id', $id)->where('is_active', 'active')->get();
+            return response()->json([
+                'success' => true,
+                'models' => $models,
+            ],200);
+
+        } catch (\Throwable $th) {
+            Log::error('Services View Failed', ['error' => $th->getMessage()]);
+            return response()->json([
+                'success' => false,
+                'message' => "Something went wrong! Please try again later",
+            ],500);
             throw $th;
         }
     }

@@ -8,7 +8,7 @@
             <div class="col-lg-6 position-relative align-self-start order-lg-last order-first" data-aos="fade-up"
                 data-aos-delay="200">
                 <img src="{{ asset('frontAssets/img/about_us.jpg') }}" class="img-fluid" alt="Car Transportation">
-                <a href="https://youtu.be/AV9lslr_7CE?si=0Lm5_1-CgtpsMIjY" class="glightbox pulsating-play-btn"></a>
+                {{-- <a href="https://youtu.be/AV9lslr_7CE?si=0Lm5_1-CgtpsMIjY" class="glightbox pulsating-play-btn"></a> --}}
             </div>
 
             <div class="col-lg-6 content order-last order-lg-first" data-aos="fade-up" data-aos-delay="100">
