@@ -3,6 +3,7 @@
 namespace App\Helpers;
 
 use App\Models\BusinessSetting;
+use App\Models\CarBrand;
 use App\Models\CompanyService;
 use App\Models\CompanySetting;
 use App\Models\Faq;
@@ -108,6 +109,15 @@ class Helper
     {
         $systemSetting = SystemSetting::with('timezone')->first();
         return $systemSetting->timezone->name ?? env('APP_TIMEZONE', 'UTC');
+    }
+    public static function getCarBrands()
+    {
+        $carBrands = CarBrand::where('is_active', 'active')->get();
+        if (isset($carBrands) && count($carBrands) > 0) {
+            return $carBrands;
+        } else {
+            return [];
+        }
     }
     public static function getDefaultLanguage()
     {
